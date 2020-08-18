@@ -63,9 +63,9 @@ fruits.forEach((fruit)=>{
 let myregexp: RegExp = /([^,]+)/gi;
 let mymatches: string[];
 
-while ((mymatches = myregexp.exec(fruits)) != null {
+/*while ((mymatches = myregexp.exec(fruits)) != null {
     console.log("Found "+ mymatches[0]+ " at "+myregexp.lastIndex);
-}
+}*/
 
 /*let newLength: number = fruits.push("Watermelon");
 let newLength2: number = fruits.push("Lemmon");
